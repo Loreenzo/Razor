@@ -15,6 +15,12 @@ namespace Razor.Controllers
             return View(myProduct);
         }
 
+
+        public ActionResult NameAndPrice()
+        {
+            return View(myProduct);
+        }
+
         Product myProduct = new Product
         {
             ProductID = 1,
